@@ -1,0 +1,40 @@
+.thanks-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.thank-img > img {
+    height: 85px;
+}
+
+.rating-display {
+    color: var(--primary-orange);
+    font-size: 14px;
+    width: max-content;
+    padding: 4px 15px;
+    padding-top: 5px;
+    border-radius: 20px;
+    background-color: var(--dark-blue);
+    margin-bottom: 25px;
+}
+
+.thank-title {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.thank-text {
+    font-size: 14px;
+    color: var(--medium-grey);
+    text-align: center;
+}
