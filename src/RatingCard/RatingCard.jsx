@@ -3,7 +3,7 @@ import React, {useState}from 'react'
 import Rating from './Rating/Rating'
 import Thanks from './Thanks/Thanks'
 
-const RatingCard = () => {
+const RatingCard = ({delay, setRevealed}) => {
 
 
     const [voted, setVoted] = useState(false)
@@ -12,7 +12,7 @@ const RatingCard = () => {
 
     return (
         <div>
-            {voted?<Thanks vote={setVoted} index={index} setIndex={setIndex}></Thanks>:<Rating vote={setVoted} index={index} setIndex={setIndex}></Rating>}
+            {voted?<Thanks vote={setVoted} index={index} setIndex={setIndex}></Thanks>:<Rating vote={setVoted} delay={delay} setRevealed={setRevealed}  index={index} setIndex={setIndex}></Rating>}
         </div>
     )
 }

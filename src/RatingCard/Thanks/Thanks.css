@@ -1,40 +1,46 @@
 .thanks-content {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .thank-img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
 }
 
 .thank-img > img {
-    height: 85px;
+  height: 85px;
 }
 
 .rating-display {
-    color: var(--primary-orange);
-    font-size: 14px;
-    width: max-content;
-    padding: 4px 15px;
-    padding-top: 5px;
-    border-radius: 20px;
-    background-color: var(--dark-blue);
-    margin-bottom: 25px;
+  color: var(--primary-orange);
+  font-size: 14px;
+  width: max-content;
+  padding: 4px 15px;
+  padding-top: 5px;
+  border-radius: 20px;
+  background-color: var(--dark-blue);
+  margin-bottom: 25px;
 }
 
 .thank-title {
-    margin-bottom: 10px;
-    cursor: pointer;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: all 0.4s ease;
+}
+
+.thank-title:hover {
+  color: var(--primary-orange);
 }
 
 .thank-text {
-    font-size: 14px;
-    color: var(--medium-grey);
-    text-align: center;
+  font-size: 14px;
+  color: var(--medium-grey);
+  text-align: center;
 }
